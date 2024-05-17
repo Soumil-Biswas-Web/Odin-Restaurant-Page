@@ -3,7 +3,7 @@ import './style.css';
 
 // Load Content Page
 const init = () => {
-    const content = document.createElement("div");
+    var content = document.createElement("div");
     content.setAttribute("id", "content");
     content = pageLoad(content);    
     return content;

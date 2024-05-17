@@ -2,7 +2,7 @@ import header from "./header";
 
 // Runs functions to create header, main, and footer elements
 const pageLoad = (content) => {
-    content.appendchild(header());
+    content.appendChild(header());
 
     return content;
 }
