@@ -1,4 +1,4 @@
-import pageLoad from './pageLoad';
+import pageLoad from './modules/pageLoad';
 import './style.css';
 
 // Load Content Page
