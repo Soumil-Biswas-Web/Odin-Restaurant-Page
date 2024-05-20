@@ -9,7 +9,7 @@
 <body>
     <div id="content">
         <header>
-            <div id="logo"></div>
+            <div id="logo">HYGGE</div>
             <div id="navbar">
                 <button id="home_btn">Home</button>
                 <button id="menu_btn">Menu</button>
@@ -18,11 +18,11 @@
             </div>
         </header>
     
-        <div id="home">
+        <div class="main" id="home">
             <p>Hygge opener.</p>        
         </div>
     
-        <div id="menu">
+        <div class="main" id="menu">
             <div class="menu_grid">
                 <div class="menu_item">menu item</div>
                 <div class="menu_item_price">Price</div>
@@ -35,9 +35,9 @@
             </div>
         </div>
     
-        <div id="about"></div>
+        <div class="main" id="about"></div>
     
-        <div id="find_us"></div>
+        <div class="main" id="find_us"></div>
     
         <footer>
             <p>Created by Soumil Biswas for The Odin Project.</p>
@@ -78,9 +78,9 @@
     home_btn.addEventListener("click", () => hideButtons("home"));
     const menu_btn = document.querySelector("#menu_btn");
     menu_btn.addEventListener("click", () => hideButtons("menu"));
-    const about_btn = document.querySelector("about_btn");
+    const about_btn = document.querySelector("#about_btn");
     about_btn.addEventListener("click", () => hideButtons("about"));
-    const findUs_btn = document.querySelector("find_us");
+    const findUs_btn = document.querySelector("#find_us");
     findUs_btn.addEventListener("click", () => hideButtons("find_us"));
 
     hideButtons("home")
