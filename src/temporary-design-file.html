@@ -18,7 +18,9 @@
         </header>
     
         <div class="main" id="home">
-            <p>Hygge opener.</p>        
+            <h1>"hygge"</h1>
+            <p>/ˈh(j)uːɡə,ˈhʊɡə/</p>
+            <p>a quality of cosiness and comfortable conviviality that engenders a feeling of contentment or well-being (regarded as a defining characteristic of Danish culture).</p>        
         </div>
     
         <div class="main" id="menu">
@@ -34,7 +36,11 @@
             </div>
         </div>
     
-        <div class="main" id="find_us"></div>
+        <div class="main" id="find_us">
+            <p>C 38, Ashutoshpally, Baishnabghata Patuli Twp, Patuli, Kolkata, West Bengal 700094</p>
+            <p>08759125042</p>
+            <img src="images/image.png" alt="Map_location">
+        </div>
     
         <footer>
             <p>Created by Soumil Biswas for The Odin Project.</p>
@@ -53,7 +59,6 @@
     pageArray.push(home);
     pageArray.push(menu);
     pageArray.push(findUs);
-    //pageArray.push(about);
 
     const hideButtons = (div_name) => {
         for (var page of pageArray){
@@ -73,7 +78,7 @@
     home_btn.addEventListener("click", () => hideButtons("home"));
     const menu_btn = document.querySelector("#menu_btn");
     menu_btn.addEventListener("click", () => hideButtons("menu"));
-    const findUs_btn = document.querySelector("#find_us");
+    const findUs_btn = document.querySelector("#find_us_btn");
     findUs_btn.addEventListener("click", () => hideButtons("find_us"));
 
     hideButtons("home")
