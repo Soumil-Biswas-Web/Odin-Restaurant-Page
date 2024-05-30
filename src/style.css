@@ -35,6 +35,10 @@ button{
 
 .main{
     height: calc(100vh - 218px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #home{
@@ -42,6 +46,19 @@ button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.menu_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+}
+
+.menu_item{
+    border-bottom: brown dotted 1px;
+}
+
+.menu_item.price{
+    text-align: end;
 }
 
 footer{
