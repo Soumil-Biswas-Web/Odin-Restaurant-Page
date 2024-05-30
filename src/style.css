@@ -48,12 +48,33 @@ button{
     justify-content: center;
 }
 
+.bg_panel {
+    background-color: rgb(245, 237, 220);
+    border-radius: 20px;
+    padding: 20px;
+    width: calc(100vw * 0.75);
+}
+
+#home h3{
+    margin-top: 50px;
+}
+
 .menu_grid{
     display: grid;
     grid-template-columns: repeat(2, 300px);
 }
 
+#menu h2{
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(35, 46, 12);
+    margin-bottom: 20px;
+}
+
 .menu_item{
+    font-style: italic;
+    font-weight: 500;
+    color: rgb(35, 46, 12);
     border-bottom: brown dotted 1px;
 }
 
@@ -61,8 +82,8 @@ button{
     text-align: end;
 }
 
-#find_us p{
-    
+#find_us img{
+    width: 300px;
 }
 
 footer{
