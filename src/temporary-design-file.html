@@ -13,7 +13,6 @@
             <div id="navbar">
                 <button id="home_btn">Home</button>
                 <button id="menu_btn">Menu</button>
-                <button id="about_btn">About</button>
                 <button id="find_us_btn">Find Us</button>
             </div>
         </header>
@@ -35,8 +34,6 @@
             </div>
         </div>
     
-        <div class="main" id="about"></div>
-    
         <div class="main" id="find_us"></div>
     
         <footer>
@@ -50,13 +47,11 @@
     // Store Navigation buttons to variables .
     const home = document.querySelector("#home");
     const menu = document.querySelector("#menu");
-    const about = document.querySelector("#about");
     const findUs = document.querySelector("#find_us");
 
     const pageArray = [];
     pageArray.push(home);
     pageArray.push(menu);
-    pageArray.push(about);
     pageArray.push(findUs);
     //pageArray.push(about);
 
@@ -78,8 +73,6 @@
     home_btn.addEventListener("click", () => hideButtons("home"));
     const menu_btn = document.querySelector("#menu_btn");
     menu_btn.addEventListener("click", () => hideButtons("menu"));
-    const about_btn = document.querySelector("#about_btn");
-    about_btn.addEventListener("click", () => hideButtons("about"));
     const findUs_btn = document.querySelector("#find_us");
     findUs_btn.addEventListener("click", () => hideButtons("find_us"));
 
