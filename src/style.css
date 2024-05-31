@@ -82,8 +82,26 @@ button{
     text-align: end;
 }
 
+#find_us .bg_panel{
+    display: grid;
+    grid-template: repeat(2, 120px)/ 1fr 300px;
+    align-items: center;
+}
+
+#phone_contact{
+    grid-row: 2 / 3;
+    display: flex;
+    align-items: start;
+}
+
+svg{
+    width: 36px;
+}
+
 #find_us img{
+    grid-column: 2 / 3;
     width: 300px;
+    align-self: flex-start;
 }
 
 footer{
