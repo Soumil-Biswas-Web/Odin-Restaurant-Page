@@ -5,6 +5,7 @@ const header = () => {
     // Create and append logo div
     const logo = document.createElement("div");
     logo.setAttribute("id", "logo")
+    logo.textContent = "HYGGE";
     header.appendChild(logo);
 
     // Create and append Navbar and nav buttons
