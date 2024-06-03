@@ -1,7 +1,6 @@
 import header from "./header";
 import home from "./home";
 import menu from "./menu";
-import about from "./about";
 import find_us from "./findUs";
 import footer from "./footer";
 
@@ -12,8 +11,6 @@ const pageLoad = (content) => {
     content.appendChild(home());
 
     content.appendChild(menu());
-
-    content.appendChild(about());
 
     content.appendChild(find_us());
 
