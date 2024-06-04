@@ -1,4 +1,6 @@
+// Function for switching between tabs
 const tabSwitcher = () => {
+    // Store all pages in an array
     const home = document.querySelector("#home");
     const menu = document.querySelector("#menu");
     const findUs = document.querySelector("#find_us");
@@ -10,6 +12,7 @@ const tabSwitcher = () => {
 
     const pageArray = [home, menu, findUs];
 
+    // Hide all but necessary page on pressing a button
     const hideButtons = (div_name) => {
         console.log(pageArray);
         for (var page of pageArray){
@@ -22,6 +25,7 @@ const tabSwitcher = () => {
         }
     }
 
+    // Add event listeners to all navigation buttons
     const home_btn = document.querySelector("#home_btn");
     const menu_btn = document.querySelector("#menu_btn");
     const findUs_btn = document.querySelector("#find_us_btn");

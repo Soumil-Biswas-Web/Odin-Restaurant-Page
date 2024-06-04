@@ -1,11 +1,14 @@
 const home = () => {
+    // Create main panel
     const home = document.createElement("div");
     home.setAttribute("class", "main");
     home.setAttribute("id", "home");
 
+    // Create box
     const bg_panel = document.createElement("div");
     bg_panel.setAttribute("class", "bg_panel");
 
+    // Items inside box
     const h1 = document.createElement("h1");
     h1.textContent = "hygge";
     bg_panel.appendChild(h1);
@@ -23,6 +26,7 @@ const home = () => {
 
     home.appendChild(bg_panel);
 
+    // Text below Box
     const h3 = document.createElement("h3");
     h3.textContent = "A cafe that speaks of comfort, coziness, conviviality and contentment.";
     home.appendChild(h3);

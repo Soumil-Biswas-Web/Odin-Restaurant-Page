@@ -17,6 +17,8 @@ init();
 
 console.log("DOM created");
 
+// Execute after DOM is initialized
+
 /*document.addEventListener('DOMContentLoaded', () => {
     tabSwitcher();
 });*/
