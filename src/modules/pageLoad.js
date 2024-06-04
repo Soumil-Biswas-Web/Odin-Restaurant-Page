@@ -15,7 +15,7 @@ const pageLoad = (content) => {
     content.appendChild(find_us());
 
     content.appendChild(footer());
-    
+
     return content;
 }
 
