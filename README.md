@@ -1,4 +1,4 @@
-# Odin_Restaurant_Page
+# Odin-Restaurant-Page
 Project Submission for the Javascript Course in the Odin Project
  
 Open the Website using the link https://soumil-biswas-web.github.io/Odin-Restaurant-Page
