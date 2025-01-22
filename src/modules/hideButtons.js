@@ -14,8 +14,8 @@ const tabSwitcher = () => {
 
     // Hide all but necessary page on pressing a button
     const hideButtons = (div_name) => {
-        console.log(pageArray);
-        for (var page of pageArray){
+        // console.log(pageArray);
+        for (let page of pageArray){
             if (page.id === div_name){
                 page.style.display = 'flex';
             }

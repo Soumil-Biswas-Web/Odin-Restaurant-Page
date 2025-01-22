@@ -13,16 +13,16 @@ const home = () => {
     h1.textContent = "hygge";
     bg_panel.appendChild(h1);
 
-    var p = document.createElement("p");
+    let p = document.createElement("p");
     p.textContent = "/ˈh(j)uːɡə,ˈhʊɡə/";
     bg_panel.appendChild(p);
 
-    var br = document.createElement("br");
+    let br = document.createElement("br");
     bg_panel.appendChild(br);
 
-    var p = document.createElement("p");
-    p.textContent = "a quality of cosiness and comfortable conviviality that engenders a feeling of contentment or well-being (regarded as a defining characteristic of Danish culture).";
-    bg_panel.appendChild(p);
+    let p2 = document.createElement("p");
+    p2.textContent = "a quality of cosiness and comfortable conviviality that engenders a feeling of contentment or well-being (regarded as a defining characteristic of Danish culture).";
+    bg_panel.appendChild(p2);
 
     home.appendChild(bg_panel);
 

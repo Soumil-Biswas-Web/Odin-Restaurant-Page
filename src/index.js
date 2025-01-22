@@ -4,7 +4,7 @@ import tabSwitcher from "./modules/hideButtons";
 
 // Load Content Page
 const init = () => {
-    var content = document.createElement("div");
+    let content = document.createElement("div");
     content.setAttribute("id", "content");
     content = pageLoad(content); 
     document.body.appendChild(content);

@@ -24,7 +24,7 @@ const header = () => {
 
     const find_us_btn = document.createElement("button");
     find_us_btn.setAttribute("id", "find_us_btn");
-    find_us_btn.textContent = "Fnd Us";
+    find_us_btn.textContent = "Find Us";
     navbar.appendChild(find_us_btn);
 
     // Append navbar to header
