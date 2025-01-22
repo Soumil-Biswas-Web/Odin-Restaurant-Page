@@ -53,7 +53,7 @@ web_modules/
 
 # dist folder
 
-dist
+dist/
 
 # Optional eslint cache
 .eslintcache
